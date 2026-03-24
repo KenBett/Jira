@@ -90,7 +90,7 @@ const SignInCard = () => {
       </div>
       <CardContent className="p-7 flex flex-col gap-y-4">
         <Button
-          onClick={signUpWithGoogle}
+          onClick={() => signUpWithGoogle}
           className="w-full"
           disabled={isPending}
           variant={"secondary"}
